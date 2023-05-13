@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+Objekt_erkennen/__init__.py
+Objekt_erkennen/publischer.py
+Objekt_erkennen/subscriber.py
+build/Objekt_erkennen/Objekt_erkennen.egg-info/PKG-INFO
+build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt
+build/Objekt_erkennen/Objekt_erkennen.egg-info/dependency_links.txt
+build/Objekt_erkennen/Objekt_erkennen.egg-info/entry_points.txt
+build/Objekt_erkennen/Objekt_erkennen.egg-info/requires.txt
+build/Objekt_erkennen/Objekt_erkennen.egg-info/top_level.txt
+build/Objekt_erkennen/Objekt_erkennen.egg-info/zip-safe
+resource/Objekt_erkennen
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

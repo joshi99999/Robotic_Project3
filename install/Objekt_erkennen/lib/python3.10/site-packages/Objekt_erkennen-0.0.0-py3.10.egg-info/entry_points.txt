@@ -1,0 +1,4 @@
+[console_scripts]
+publischer = Objekt_erkennen.publischer:main
+subscriber = Objekt_erkennen.subscriber:main
+

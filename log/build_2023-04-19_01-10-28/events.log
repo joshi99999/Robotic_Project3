@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.002151] (Objekt_erkennen) JobQueued: {'identifier': 'Objekt_erkennen', 'dependencies': OrderedDict()}
+[0.004719] (Objekt_erkennen) JobStarted: {'identifier': 'Objekt_erkennen'}
+[0.097854] (-) TimerEvent: {}
+[0.198849] (-) TimerEvent: {}
+[0.300640] (-) TimerEvent: {}
+[0.401844] (-) TimerEvent: {}
+[0.503062] (-) TimerEvent: {}
+[0.605098] (-) TimerEvent: {}
+[0.713977] (-) TimerEvent: {}
+[0.815735] (-) TimerEvent: {}
+[0.922914] (-) TimerEvent: {}
+[1.024944] (-) TimerEvent: {}
+[1.125622] (-) TimerEvent: {}
+[1.227820] (-) TimerEvent: {}
+[1.336762] (-) TimerEvent: {}
+[1.445018] (-) TimerEvent: {}
+[1.553834] (-) TimerEvent: {}
+[1.662707] (-) TimerEvent: {}
+[1.771605] (-) TimerEvent: {}
+[1.873064] (-) TimerEvent: {}
+[1.981941] (-) TimerEvent: {}
+[2.090658] (-) TimerEvent: {}
+[2.199584] (-) TimerEvent: {}
+[2.251890] (Objekt_erkennen) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/Objekt_erkennen', 'build', '--build-base', '/home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build', 'install', '--record', '/home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/install.log', '--single-version-externally-managed'], 'cwd': '/home/fab/ros2_ws/src/Objekt_erkennen', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fab', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/fab', 'OLDPWD': '/home/fab/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fab', 'NAME': 'Fabrice', 'WSL_INTEROP': '/run/WSL/1863_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/fabri/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fabri/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/CLion 2022.3.2/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.1/bin:/snap/bin', 'WT_SESSION': '16ed234a-222b-49c2-a45f-bbaad64add08', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/prefix_override:/home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[2.302158] (-) TimerEvent: {}
+[2.411268] (-) TimerEvent: {}
+[2.520113] (-) TimerEvent: {}
+[2.606852] (Objekt_erkennen) StdoutLine: {'line': b'running egg_info\n'}
+[2.607957] (Objekt_erkennen) StdoutLine: {'line': b'creating build/Objekt_erkennen/Objekt_erkennen.egg-info\n'}
+[2.609161] (Objekt_erkennen) StdoutLine: {'line': b'writing build/Objekt_erkennen/Objekt_erkennen.egg-info/PKG-INFO\n'}
+[2.610175] (Objekt_erkennen) StdoutLine: {'line': b'writing dependency_links to build/Objekt_erkennen/Objekt_erkennen.egg-info/dependency_links.txt\n'}
+[2.610571] (Objekt_erkennen) StdoutLine: {'line': b'writing entry points to build/Objekt_erkennen/Objekt_erkennen.egg-info/entry_points.txt\n'}
+[2.611074] (Objekt_erkennen) StdoutLine: {'line': b'writing requirements to build/Objekt_erkennen/Objekt_erkennen.egg-info/requires.txt\n'}
+[2.611169] (Objekt_erkennen) StdoutLine: {'line': b'writing top-level names to build/Objekt_erkennen/Objekt_erkennen.egg-info/top_level.txt\n'}
+[2.612196] (Objekt_erkennen) StdoutLine: {'line': b"writing manifest file 'build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt'\n"}
+[2.616508] (Objekt_erkennen) StdoutLine: {'line': b"reading manifest file 'build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt'\n"}
+[2.617529] (Objekt_erkennen) StdoutLine: {'line': b"writing manifest file 'build/Objekt_erkennen/Objekt_erkennen.egg-info/SOURCES.txt'\n"}
+[2.620470] (Objekt_erkennen) StdoutLine: {'line': b'running build\n'}
+[2.620626] (-) TimerEvent: {}
+[2.620789] (Objekt_erkennen) StdoutLine: {'line': b'running build_py\n'}
+[2.621113] (Objekt_erkennen) StdoutLine: {'line': b'creating /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build\n'}
+[2.621435] (Objekt_erkennen) StdoutLine: {'line': b'creating /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib\n'}
+[2.621783] (Objekt_erkennen) StdoutLine: {'line': b'creating /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib/Objekt_erkennen\n'}
+[2.622117] (Objekt_erkennen) StdoutLine: {'line': b'copying Objekt_erkennen/publischer.py -> /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib/Objekt_erkennen\n'}
+[2.622631] (Objekt_erkennen) StdoutLine: {'line': b'copying Objekt_erkennen/__init__.py -> /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib/Objekt_erkennen\n'}
+[2.623387] (Objekt_erkennen) StdoutLine: {'line': b'copying Objekt_erkennen/subscriber.py -> /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib/Objekt_erkennen\n'}
+[2.624402] (Objekt_erkennen) StdoutLine: {'line': b'running install\n'}
+[2.624960] (Objekt_erkennen) StdoutLine: {'line': b'running install_lib\n'}
+[2.625921] (Objekt_erkennen) StdoutLine: {'line': b'creating /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen\n'}
+[2.626626] (Objekt_erkennen) StdoutLine: {'line': b'copying /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib/Objekt_erkennen/publischer.py -> /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen\n'}
+[2.627155] (Objekt_erkennen) StdoutLine: {'line': b'copying /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib/Objekt_erkennen/__init__.py -> /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen\n'}
+[2.627751] (Objekt_erkennen) StdoutLine: {'line': b'copying /home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/build/lib/Objekt_erkennen/subscriber.py -> /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen\n'}
+[2.629236] (Objekt_erkennen) StdoutLine: {'line': b'byte-compiling /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen/publischer.py to publischer.cpython-310.pyc\n'}
+[2.630762] (Objekt_erkennen) StdoutLine: {'line': b'byte-compiling /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen/__init__.py to __init__.cpython-310.pyc\n'}
+[2.631099] (Objekt_erkennen) StdoutLine: {'line': b'byte-compiling /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen/subscriber.py to subscriber.cpython-310.pyc\n'}
+[2.632518] (Objekt_erkennen) StdoutLine: {'line': b'running install_data\n'}
+[2.633278] (Objekt_erkennen) StdoutLine: {'line': b'creating /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/share/ament_index\n'}
+[2.633680] (Objekt_erkennen) StdoutLine: {'line': b'creating /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/share/ament_index/resource_index\n'}
+[2.634682] (Objekt_erkennen) StdoutLine: {'line': b'creating /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/share/ament_index/resource_index/packages\n'}
+[2.636523] (Objekt_erkennen) StdoutLine: {'line': b'copying resource/Objekt_erkennen -> /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/share/ament_index/resource_index/packages\n'}
+[2.636860] (Objekt_erkennen) StdoutLine: {'line': b'copying package.xml -> /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/share/Objekt_erkennen\n'}
+[2.637105] (Objekt_erkennen) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.639648] (Objekt_erkennen) StdoutLine: {'line': b'Copying build/Objekt_erkennen/Objekt_erkennen.egg-info to /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/python3.10/site-packages/Objekt_erkennen-0.0.0-py3.10.egg-info\n'}
+[2.644249] (Objekt_erkennen) StdoutLine: {'line': b'running install_scripts\n'}
+[2.674285] (Objekt_erkennen) StdoutLine: {'line': b'Installing publischer script to /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/Objekt_erkennen\n'}
+[2.675933] (Objekt_erkennen) StdoutLine: {'line': b'Installing subscriber script to /home/fab/ros2_ws/src/Objekt_erkennen/install/Objekt_erkennen/lib/Objekt_erkennen\n'}
+[2.676594] (Objekt_erkennen) StdoutLine: {'line': b"writing list of installed files to '/home/fab/ros2_ws/src/Objekt_erkennen/build/Objekt_erkennen/install.log'\n"}
+[2.715450] (Objekt_erkennen) CommandEnded: {'returncode': 0}
+[2.722194] (-) TimerEvent: {}
+[2.748726] (Objekt_erkennen) JobEnded: {'identifier': 'Objekt_erkennen', 'rc': 0}
+[2.750546] (-) EventReactorShutdown: {}
